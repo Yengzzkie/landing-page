@@ -97,13 +97,14 @@ footer {
 
 .content-container h1 {
   text-align: center;
+  text-shadow: 3px 3px 5px rgb(108, 203, 216);
   padding: 30px;
 }
 
 .box-container {
   display: flex;
-  justify-content: space-between;
-  max-width: 1000px;
+  justify-content: space-around;
+  align-items: baseline;
   margin: auto;
 }
 
@@ -113,7 +114,6 @@ footer {
 }
 
 .boxes img {
-  border: 1px solid black;
   border-radius: 15px;
   box-shadow: 0 0 15px;
   width: 200px;
@@ -124,7 +124,10 @@ footer {
 
 .boxes p {
   text-align: center;
-  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px 10px;
+  width: 300px;
+  margin-top: 20px;
 }
 
 /* quote section */
